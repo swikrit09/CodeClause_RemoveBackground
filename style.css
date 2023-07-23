@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  color: aliceblue;
+  background: url("https://wallpapers.com/images/hd/space-stars-background-1920-x-1200-erwtm3g2jn3068ip.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+}
+
+img {
+  width: 150px;
+  height: 1/1;
+  background: url("https://media.istockphoto.com/id/931643150/vector/picture-icon.jpg?s=612x612&w=0&k=20&c=St-gpRn58eIa8EDAHpn_yO4CZZAnGD6wKpln9l3Z3Ok=");
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.content {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 16px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.082);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+i {
+  font-size: 2rem;
+}
+
+.head {
+  display: flex;
+  gap: 1rem;
+}
+
+#imageContainer {
+  min-width: 500px;
+  min-height: 200px;
+  background-color: rgba(185, 236, 215, 0.319);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+
+}
+
+#uploadedImage,
+#resultImage {
+  max-width: 150px;
+  max-height: 150px;
+  /* min-height: 100px; */
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+#btnRmbg {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  background-color: rgb(0, 24, 178);
+  border: 1px solid rgb(215, 220, 255);
+  border-radius: 3px;
+}
+
+.imgBox {
+  margin: 5px;
+  /* color: black; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.bottombtn {
+  background-color: rgba(0, 0, 0, 0.931);
+  width: auto;
+  height: 30px;
+  color: aliceblue;
+  /* margin: 5px; */
+  border: 0.5px solid rgba(44, 43, 43, 0.885);
+  border-radius: 3px;
+}
