@@ -3,6 +3,7 @@
 
 Welcome to the Background Remover project! This project allows you to remove the background from images using the Remove.bg API. The application is built using HTML, CSS, and JavaScript, and it provides a user-friendly interface to remove the background from your images effortlessly.
 
+This project is a part of Code Clause Internship
 ## How to Use
 
 To use the Background Remover project, follow these steps:
